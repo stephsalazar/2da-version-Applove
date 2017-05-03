@@ -1,11 +1,8 @@
 /*
  * Ingresa el CSS del proyecto en este archivo
  */
-
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  padding: 0;
 }
 
 *:before,
@@ -17,6 +14,7 @@
 
 body {
   /* Establece la fuente de Google aquí */
+  font-family: "Raleway", sans-serif;
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
@@ -34,4 +32,55 @@ a {
 
 a:hover {
   color: #E95853;
+}
+ /*clases creadas por mi*/
+
+ header {
+   position: fixed;
+   background: white;
+   width: 100%;
+ }
+
+.nav {
+  text-align: center;
+}
+
+.logo {
+   width: 70px;
+   text-align: left;
+ }
+
+.link {
+   font-weight: 700; /*texto: bold*/
+   padding: 21px; /*espacio entre los textos*/
+   display: inline-block; /*cajas de bloque y en linea de forma simultanea*/
+ }
+
+#home {
+  background-image: url(../images/bg-home.jpg);/*imagen de portada*/
+  background-position: center;/*imagen centrada*/
+  background-repeat: no-repeat;/*para que no repita la imagen de fondo*/
+  background-size: cover;/*cubre todo el contenedor*/
+  height: 600px;/*Altura del home*/
+  text-align: center;/*alineacion al centro*/
+}
+
+.textos {
+  color: white; /*color de los textos*/
+  padding: 100px;/*relleno por los 4 lados*/
+}
+
+.text-home {
+  font-size: 50px;/*tamaño de la tipografia*/
+}
+
+.btn-home {
+  background: #2ECC71;/*color del fondo*/
+  color: #fff;/*color del texto*/
+  padding: 11px 20px;/*relleno en el boton de arriba-abajo y derecha-izquierda*/
+  border-radius: 1px; /*redondear el borde*/
+  font-weight: 500;
+  margin-top: 53px;
+  display: inline-block;
+  font-size: 14px; /*tamaño de la letra*/
 }
