@@ -35,7 +35,6 @@ a {
 a:hover {
   color: #E95853;
 }
- /*clases creadas por mi*/
 
 header {
    position: fixed;
@@ -43,19 +42,9 @@ header {
    width: 100%;
  }
 
-.alinearCentro {
-  text-align: center;
-}
-
 .logo {
    width: 70px;
    text-align: left;
- }
-
-.link {
-   font-weight: 700; /*texto: bold*/
-   padding: 21px 0px; /*espacio entre los textos*/
-   display: inline-block; /*cajas de bloque y en linea de forma simultanea*/
  }
 
 #home {
@@ -64,12 +53,6 @@ header {
   background-repeat: no-repeat;/*para que no repita la imagen de fondo*/
   background-size: cover;/*cubre todo el contenedor*/
   height: 600px;/*Altura del home*/
-  text-align: center;/*alineacion al centro*/ali
-}
-
-.textos {
-  color: white; /*color de los textos*/
-  padding: 20px;/*relleno por los 4 lados*/
 }
 
 .text-home {
@@ -90,5 +73,5 @@ header {
 #services {
   background-color: #F17C72; /*Color para el fondo*/
   color: #fff;
-  padding: 70px 7px;
+  padding: 80px 7px;
 }

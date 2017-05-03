@@ -15,6 +15,15 @@
   text-transform: uppercase;
 }
 
+.textos {
+  color: white; /*color de los textos*/
+  padding: 50px;/*relleno por los 4 lados*/
+}
+
+.alinearCentro {
+  text-align: center;
+}
+
 .container {
   width: 100%;
   padding: 0;
@@ -98,3 +107,9 @@
   /*(12 / 12) * 100 */
   width: 100%;
 }
+
+.link {
+   font-weight: 700; /*texto: bold*/
+   padding: 21px 0px; /*espacio entre los textos*/
+   display: inline-block; /*cajas de bloque y en linea de forma simultanea*/
+ }
